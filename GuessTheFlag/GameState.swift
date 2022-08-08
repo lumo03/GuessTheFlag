@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+class GameState: ObservableObject {
+    @Published var score = 0
+    @Published var counter = 0
+}

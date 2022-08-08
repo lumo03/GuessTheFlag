@@ -11,6 +11,10 @@
 		A05BAF71289C7FA70060E967 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05BAF70289C7FA70060E967 /* ContentView.swift */; };
 		A05BAF73289C7FAD0060E967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05BAF72289C7FAD0060E967 /* Assets.xcassets */; };
 		A05BAF76289C7FAD0060E967 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05BAF75289C7FAD0060E967 /* Preview Assets.xcassets */; };
+		A081E4BC289F1B7A000B2C3F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A081E4BB289F1B7A000B2C3F /* SettingsView.swift */; };
+		A09DA3DB28A0788E0052D554 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA3DA28A0788E0052D554 /* GameState.swift */; };
+		A09DA3DD28A078C90052D554 /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA3DC28A078C90052D554 /* GameSettings.swift */; };
+		A09DA3DF28A079700052D554 /* SettingsAndState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09DA3DE28A079700052D554 /* SettingsAndState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		A05BAF70289C7FA70060E967 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A05BAF72289C7FAD0060E967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A05BAF75289C7FAD0060E967 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A081E4BB289F1B7A000B2C3F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A09DA3DA28A0788E0052D554 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		A09DA3DC28A078C90052D554 /* GameSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSettings.swift; sourceTree = "<group>"; };
+		A09DA3DE28A079700052D554 /* SettingsAndState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAndState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				A05BAF6E289C7FA70060E967 /* GuessTheFlagApp.swift */,
 				A05BAF70289C7FA70060E967 /* ContentView.swift */,
+				A081E4BB289F1B7A000B2C3F /* SettingsView.swift */,
+				A09DA3DA28A0788E0052D554 /* GameState.swift */,
+				A09DA3DC28A078C90052D554 /* GameSettings.swift */,
+				A09DA3DE28A079700052D554 /* SettingsAndState.swift */,
 				A05BAF72289C7FAD0060E967 /* Assets.xcassets */,
 				A05BAF74289C7FAD0060E967 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A09DA3DF28A079700052D554 /* SettingsAndState.swift in Sources */,
+				A081E4BC289F1B7A000B2C3F /* SettingsView.swift in Sources */,
+				A09DA3DB28A0788E0052D554 /* GameState.swift in Sources */,
 				A05BAF71289C7FA70060E967 /* ContentView.swift in Sources */,
 				A05BAF6F289C7FA70060E967 /* GuessTheFlagApp.swift in Sources */,
+				A09DA3DD28A078C90052D554 /* GameSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
